@@ -1,0 +1,18 @@
+{
+  "base_url": "https://your-endpoint.example/v1",
+  "api_key": "your-api-key",
+  "model": "grok-imagine-image",
+  "edit_model": "grok-imagine-edit",
+  "video_model": "grok-imagine-video",
+  "default_size": "1024x1024",
+  "timeout_sec": 120,
+  "generations_path": "/images/generations",
+  "edits_path": "/images/edits",
+  "video_generations_path": "/videos/generations",
+  "video_status_path": "/videos/{request_id}",
+  "video_default_duration": 6,
+  "video_default_aspect_ratio": "16:9",
+  "video_default_resolution": "720p",
+  "video_poll_interval_sec": 3,
+  "video_timeout_sec": 600
+}
